@@ -16,8 +16,3 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 """Multiplies two numbers"""
-
-# Workaround for using onecompiler to run tests.py
-if __name__ == '__main__':
-    import os
-    os.system("python3 tests.py")
