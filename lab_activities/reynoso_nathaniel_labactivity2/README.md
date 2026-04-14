@@ -1,20 +1,21 @@
 # Lab Activity 2: Strings, Lists, Tuples, and Dictionaries
 
 ## Course Info
-* **Course:** CPE106L-4 Software Design Laboratory
-* **Instructor:** Dr. John De Guzman Tarampi
+* **Course:** CPE106L-4
+* **Section:** E01
+* **Instructor:** Sir John De Guzman Tarampi
 
 ## Description
-This repository contains a menu-driven Python command-line application that manages structured student records. The application demonstrates core software design principles by implementing full CRUD (Create, Read, Update, Delete/Display) operations utilizing Python's built-in data structures.
+This repository has a menu-driven Python application that manages student records. The application implements a full CRUD (Create, Read, Update, Delete/Display) in doing this software design activity.
 
-### Data Structure Utilization:
-* **Dictionaries:** Used as the primary database, mapping String keys (Student IDs) to nested dictionaries.
-* **Strings:** Used for standard text data (IDs, Names).
-* **Tuples:** Used to store immutable data pairs, such as a student's `(Degree, Major)` program designation.
-* **Lists:** Used to store mutable data sets, such as dynamically appending exam `[grades]` over time.
+### Data Structure:
+* **Dictionaries:** Used as the primary database, mapping Student IDs with nested dictionaries.
+* **Strings:** Used for standard text data. Example are ID and Names
+* **Tuples:** Used to store immutable data pairs like the contact information of a student.
+* **Lists:** Used to store mutable data sets like the grades in an exam that dynamically change.
 
 ## Environment Setup
-This project follows professional Python standards using an isolated virtual environment. 
+This isolated virtual environment can be set up. 
 
 ```bash
 mkdir lab2
