@@ -3,8 +3,7 @@
 # Tests the function of the main file.
 # -----------------------------------------------------------------
 
-import unittest
-import main 
+from src import main
 
 def run_tests():
     print("--- Running Automated Tests ---")
