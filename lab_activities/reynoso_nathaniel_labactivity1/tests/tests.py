@@ -5,7 +5,7 @@
 
 import sys
 import os
-# Workaroun to find the main file
+# Workaround to find the main file
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
