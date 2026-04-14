@@ -3,7 +3,11 @@
 # Tests the function of the main file.
 # -----------------------------------------------------------------
 
-from src import main
+import sys
+import os
+# Workaroun to find the main file
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def run_tests():
     print("--- Running Automated Tests ---")
