@@ -2,8 +2,12 @@
 # File: tests.py
 # This file tests whether the main python code can really create, update and display.
 # -----------------------------------------------------------------------------------
+import sys
+import os
 
-import main
+# This tells Python to go up one level to find the 'src' folder
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src import main
 
 def run_tests():
     print("\n--- Running Lab 2 Automated Tests ---")
