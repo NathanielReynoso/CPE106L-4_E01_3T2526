@@ -5,7 +5,6 @@
 import sys
 import os
 
-# This tells Python to go up one level to find the 'src' folder
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src import main
 
